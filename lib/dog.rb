@@ -12,7 +12,7 @@ class Dog
     @@all.clear
   end
 
-  def name
+  def all
     @@all << @name
   end
 
