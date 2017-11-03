@@ -17,7 +17,7 @@ class Dog
   def self.all
     binding.pry
 
-    @@all.collect{|dog| puts dog}
+    @@all.collect{|dog| puts dog.name}
   end
 
 end
